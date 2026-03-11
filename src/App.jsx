@@ -16,7 +16,8 @@ function App() {
       {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      <BackendDisplay/>
+      {/* <BackendDisplay/> */}
+      <h1>Hello my First MERN LIVE</h1>
     </>
   )
 }
