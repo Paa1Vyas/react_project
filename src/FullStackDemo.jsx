@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios';
 
 export default function FullStackDemo() {
-    const url = 'http://localhost:3000/students';
+    const url = 'https://k-eep9.onrender.com/hello?name=paavan';
     axios.get(url)
     .then(response => {
         console.log(response.data);

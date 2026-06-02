@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <div>
-       {/* <FullStackDemo/> */}
+       <FullStackDemo/>
       </div>
       {/* <p className="read-the-docs">
         Click on the Vite and React logos to learn more
