@@ -1,5 +1,6 @@
 import React from 'react'
 import axios from 'axios';
+import cors from 'cors';
 
 export default function FullStackDemo() {
     const url = 'https://k-eep9.onrender.com/hello?name=paavan';
@@ -12,6 +13,8 @@ export default function FullStackDemo() {
     });
   return (
     <div>
+      <h1>Full Stack Demo</h1>
+      <p>{response.data.message}</p>
 
     </div>
   )
